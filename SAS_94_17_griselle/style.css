@@ -1,0 +1,318 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("life\ plans\ -\ griselle9417\ \(4\).png");
+    background-size: cover;
+}
+.header{
+    width: 1280px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    z-index: 99;
+}
+/* kode css navigator */ 
+ul{
+    list-style: none;
+    background-color: rgb(113, 151, 181); 
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    width: 1280px;
+    height: 60px;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+
+ul li a{
+    padding: 10px 0px;
+    text-align: center;
+}
+
+ul a:hover{
+    background-color: rgb(113, 151, 181);
+}
+
+/* kode css dropdown */
+ul li ul.dropdown{
+    background-color: rgb(197, 230, 255);
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+
+.dropbtn:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgb(123, 134, 255);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+/*kode css side bar*/
+.column {
+    margin-top: 200px;
+    float: left;
+    padding: 0px 0px;
+}
+
+/* footer */
+.footer {
+    position: absolute;
+    bottom: 0;
+}
+
+/*regional*/
+p.a1 {
+    text-align: center;
+    color: rgb(179, 218, 255);
+    font-family: verdana;
+    background-color:rgb(11, 41, 67);;
+}
+h2.a{
+    color: rgb(53, 106, 146);
+    text-align: center;
+    font-family: Verdana;
+}
+
+h3.e1 {
+    text-align: center;
+    color: rgb(53, 106, 146);
+    font-family: Verdana;
+}
+
+p.b{
+    text-align: center;
+    font-family: verdana;
+}
+
+.content{
+    margin: 130px 0px;
+}
+
+img.c{
+    width: 17%;
+    border-radius: 10%;
+}
+
+img.d{
+    width: 15%;
+    border-radius: 10%;
+}
+
+h2.e{
+    text-align: center;
+    color: rgb(53, 106, 146);
+    font-family: Verdana;
+}
+
+p.f{
+    text-align: justify;
+    font-family: verdana;
+}
+
+p.f1 {
+    text-align: center;
+    color: beige;
+    font-family: verdana;
+    background-color: rgb(64, 85, 101);
+}
+
+p.f2 {
+    text-align: center;
+    font-family: verdana;
+}
+
+p.g {
+    text-align: center;
+    color: beige;
+    font-family: verdana;
+    background-color: rgb(64, 85, 101);
+}
+
+p.g1 {
+    text-align: center;
+    font-family: verdana;
+}
+
+p.h{
+    text-align: center;
+    color: beige;
+    font-family: verdana;
+    background-color: rgb(64, 85, 101);
+}
+
+p.h1{
+    text-align: center;
+    font-family: verdana;
+}
+
+p.h3{
+    text-align: center;
+    font-family: verdana;
+}
+
+p.h5{
+    text-align: center;
+    font-family: verdana;
+}
+
+p.h2{
+    text-align: center;
+    color: beige;
+    font-family: verdana;
+    background-color: rgb(64, 85, 101);
+}
+
+
+p.h4{
+    text-align: center;
+    color: beige;
+    font-family: verdana;
+    background-color: rgb(64, 85, 101);
+}
+
+img.i{
+    width: 20%;
+    border-radius: 10%;
+    border: 2px solid rgb(39, 71, 91);
+  
+}
+
+img.i1{    
+    width: 20%;
+    border-radius: 10%;
+    border: 2px solid rgb(39, 71, 91);
+  
+}
+
+img.i2{
+    width: 20%;
+    border-radius: 10%;
+    border: 2px solid rgb(39, 71, 91);
+  
+}
+
+h1.j {
+    text-align: center;
+    font-family: Verdana;
+    color: #1b3a63; /* Warna font */
+    margin-top: 30px; /* Jarak atas */
+}
+
+/* footer */
+.footer{
+    width: 1270px;
+    position: relative;
+    bottom: 0;
+}
+
+img.k1 {
+    width: 60%;
+    border-radius: 10%;  
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Menyesuaikan posisi vertikal tulisan */
+    gap: 20px; /* Jarak antara foto dan teks */
+}
+
+.image {
+    width: 200px; /* Lebar foto */
+    height: auto; /* Agar proporsi tetap */
+    border-radius: 5px; /* Opsional: Membuat sudut melengkung */
+    
+}
+
+.text {
+    font-size: 16px; /* Ukuran font */
+    line-height: 1.5; /* Jarak antarbaris */
+    font-family: verdana;
+}
+
+h2.l1{
+    text-align: center;
+    color: rgb(53, 106, 146);
+    font-family: Verdana;
+}
+
+h2.l3{
+    text-align: center;
+    color: rgb(53, 106, 146);
+    font-family: Verdana;
+}
+
+p.l2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Verdana;
+}
+p.l4{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Verdana;
+}
+
+h3.o{
+    text-align: center;
+    color: rgb(25, 52, 72);
+    font-family: Verdana; 
+}
+
+h2.m{
+    text-align: center;
+    color: rgb(53, 106, 146);
+    font-family: Verdana; 
+}
+
+h2.n {
+    text-align: center;
+    color: rgb(53, 106, 146);
+    font-family: Verdana;
+}
+
+p.m1 { 
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Verdana; 
+}
+p.m2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Verdana;
+}
+p.n1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Verdana;
+}
+p.n2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Verdana;
+}
+
+h1.z{
+    text-align: center;
+    color: rgb(32, 42, 50);
+    font-family: Verdana; 
+}
